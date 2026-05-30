@@ -67,7 +67,14 @@
 
                 <p>
                     <label for="id-estadocivil">Estado Civil:</label>
-                    <input type="text" id="id-estadocivil" name="estadocivil">
+                    <select id="id-estadocivil" name="estadocivil">
+                        <option value="">Selecione...</option>
+                        <option value="solteiro">Solteiro(a)</option>
+                        <option value="casado">Casado(a)</option>
+                        <option value="divorciado">Divorciado(a)</option>
+                        <option value="viuvo">Viúvo(a)</option>
+                        <option value="outro">Outro</option>
+                    </select>
                 </p>
 
                 <p>
@@ -148,17 +155,4 @@
                 </p>
 
                 <p>
-                    <label for="id-imagem">Anexar Imagem de Perfil:</label>
-                    <input type="file" id="id-imagem" name="imagem" accept="image/*">
-                </p>
-            </fieldset>
-
-            <p>
-                <button type="submit">Enviar Cadastro</button>
-            </p>
-
-        </form>
-    </div>
-
-</body>
-</html>
+                    <label for="id-imagem">Anexar Imagem de Perfil:</label
